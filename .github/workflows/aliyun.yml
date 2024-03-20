@@ -17,6 +17,7 @@ jobs:
         env:
           REFRESH_TOKEN: '${{ secrets.ALIYUN_REFRESH_TOKEN }}'
           PORT: 8080
+          DRIVE_TYPE:resource
     steps:
       - uses: actions/checkout@v2
         with:
